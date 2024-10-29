@@ -3,50 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E2D3DDF1BED98C1216069B4C /* Pods_The_Museum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795FF2752DF5760D6C9099A5 /* Pods_The_Museum.framework */; };
+		F177D6AF2CCF63C400108874 /* DetailObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177D6AE2CCF63C400108874 /* DetailObjectViewController.swift */; };
+		F183B6032CCF76FE0066BE76 /* ObjectDataDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183B6022CCF76F80066BE76 /* ObjectDataDetail.swift */; };
+		F18C11762CCDBEB6000D7872 /* ListDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C11752CCDBEB5000D7872 /* ListDataViewController.swift */; };
+		F18C11782CCDF67A000D7872 /* ListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C11772CCDF674000D7872 /* ListObject.swift */; };
+		F18C117A2CCE87D9000D7872 /* ObjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C11792CCE87D9000D7872 /* ObjectData.swift */; };
+		F18EE45F2CCEF8070082D543 /* ObjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18EE45D2CCEF8070082D543 /* ObjectTableViewCell.swift */; };
+		F18EE4602CCEF8070082D543 /* ObjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18EE45E2CCEF8070082D543 /* ObjectTableViewCell.xib */; };
+		F196EC542CCCA26E00526263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F196EC4B2CCCA26E00526263 /* Assets.xcassets */; };
+		F196EC562CCCA26E00526263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F196EC4E2CCCA26E00526263 /* LaunchScreen.storyboard */; };
+		F196EC572CCCA26E00526263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F196EC502CCCA26E00526263 /* Main.storyboard */; };
+		F196EC582CCCA26E00526263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196EC4A2CCCA26E00526263 /* AppDelegate.swift */; };
+		F196EC592CCCA26E00526263 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196EC512CCCA26E00526263 /* SceneDelegate.swift */; };
+		F196EC5A2CCCA26E00526263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196EC522CCCA26E00526263 /* ViewController.swift */; };
+		F196EC5C2CCCC93C00526263 /* DepartementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196EC5B2CCCC93C00526263 /* DepartementViewController.swift */; };
+		F196EC5E2CCCDB9400526263 /* Departement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196EC5D2CCCDB9400526263 /* Departement.swift */; };
+		F19866C82CD0964C00215F1A /* DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19866C72CD0964700215F1A /* DownloadImage.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		42A69CFECFF0D8E92A14406D /* Pods-The Museum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Museum.debug.xcconfig"; path = "Target Support Files/Pods-The Museum/Pods-The Museum.debug.xcconfig"; sourceTree = "<group>"; };
+		43F83C02599B054B58B007DF /* Pods-The Museum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Museum.release.xcconfig"; path = "Target Support Files/Pods-The Museum/Pods-The Museum.release.xcconfig"; sourceTree = "<group>"; };
+		795FF2752DF5760D6C9099A5 /* Pods_The_Museum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Museum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F177D6AE2CCF63C400108874 /* DetailObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailObjectViewController.swift; sourceTree = "<group>"; };
+		F183B6022CCF76F80066BE76 /* ObjectDataDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDataDetail.swift; sourceTree = "<group>"; };
+		F18C11752CCDBEB5000D7872 /* ListDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataViewController.swift; sourceTree = "<group>"; };
+		F18C11772CCDF674000D7872 /* ListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListObject.swift; sourceTree = "<group>"; };
+		F18C11792CCE87D9000D7872 /* ObjectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectData.swift; sourceTree = "<group>"; };
+		F18EE45D2CCEF8070082D543 /* ObjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTableViewCell.swift; sourceTree = "<group>"; };
+		F18EE45E2CCEF8070082D543 /* ObjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectTableViewCell.xib; sourceTree = "<group>"; };
 		F196EC102CCC590100526263 /* The Museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Museum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F196EC4A2CCCA26E00526263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F196EC4B2CCCA26E00526263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F196EC4C2CCCA26E00526263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F196EC4D2CCCA26E00526263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F196EC4F2CCCA26E00526263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F196EC512CCCA26E00526263 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F196EC522CCCA26E00526263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F196EC5B2CCCC93C00526263 /* DepartementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartementViewController.swift; sourceTree = "<group>"; };
+		F196EC5D2CCCDB9400526263 /* Departement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departement.swift; sourceTree = "<group>"; };
+		F19866C72CD0964700215F1A /* DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F196EC222CCC590300526263 /* Exceptions for "The Museum" folder in "The Museum" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F196EC0F2CCC590100526263 /* The Museum */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F196EC122CCC590100526263 /* The Museum */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F196EC222CCC590300526263 /* Exceptions for "The Museum" folder in "The Museum" target */,
-			);
-			path = "The Museum";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F196EC0D2CCC590100526263 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D3DDF1BED98C1216069B4C /* Pods_The_Museum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44EBAF6339140456D0726E55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42A69CFECFF0D8E92A14406D /* Pods-The Museum.debug.xcconfig */,
+				43F83C02599B054B58B007DF /* Pods-The Museum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE4863FE01A9366EBF1C4245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				795FF2752DF5760D6C9099A5 /* Pods_The_Museum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F196EC072CCC590100526263 = {
 			isa = PBXGroup;
 			children = (
-				F196EC122CCC590100526263 /* The Museum */,
+				F196EC532CCCA26E00526263 /* The Museum */,
 				F196EC112CCC590100526263 /* Products */,
+				44EBAF6339140456D0726E55 /* Pods */,
+				DE4863FE01A9366EBF1C4245 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +97,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F196EC532CCCA26E00526263 /* The Museum */ = {
+			isa = PBXGroup;
+			children = (
+				F196EC4A2CCCA26E00526263 /* AppDelegate.swift */,
+				F196EC512CCCA26E00526263 /* SceneDelegate.swift */,
+				F196EC4B2CCCA26E00526263 /* Assets.xcassets */,
+				F196EC4C2CCCA26E00526263 /* Info.plist */,
+				F19866C22CD07B7E00215F1A /* Model */,
+				F19866C32CD07B9100215F1A /* View */,
+				F19866C42CD07BDA00215F1A /* Controllers */,
+			);
+			path = "The Museum";
+			sourceTree = "<group>";
+		};
+		F19866C22CD07B7E00215F1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F196EC5D2CCCDB9400526263 /* Departement.swift */,
+				F18C11772CCDF674000D7872 /* ListObject.swift */,
+				F18C11792CCE87D9000D7872 /* ObjectData.swift */,
+				F183B6022CCF76F80066BE76 /* ObjectDataDetail.swift */,
+				F19866C72CD0964700215F1A /* DownloadImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F19866C32CD07B9100215F1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F196EC4E2CCCA26E00526263 /* LaunchScreen.storyboard */,
+				F196EC502CCCA26E00526263 /* Main.storyboard */,
+				F18EE45E2CCEF8070082D543 /* ObjectTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F19866C42CD07BDA00215F1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F196EC522CCCA26E00526263 /* ViewController.swift */,
+				F196EC5B2CCCC93C00526263 /* DepartementViewController.swift */,
+				F18C11752CCDBEB5000D7872 /* ListDataViewController.swift */,
+				F177D6AE2CCF63C400108874 /* DetailObjectViewController.swift */,
+				F18EE45D2CCEF8070082D543 /* ObjectTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +152,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F196EC232CCC590300526263 /* Build configuration list for PBXNativeTarget "The Museum" */;
 			buildPhases = (
+				6D04CF72979D6B619C78C0E2 /* [CP] Check Pods Manifest.lock */,
 				F196EC0C2CCC590100526263 /* Sources */,
 				F196EC0D2CCC590100526263 /* Frameworks */,
 				F196EC0E2CCC590100526263 /* Resources */,
+				05CF223EF037AEF0F5C44322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F196EC122CCC590100526263 /* The Museum */,
-			);
 			name = "The Museum";
-			packageProductDependencies = (
-			);
 			productName = "The Museum";
 			productReference = F196EC102CCC590100526263 /* The Museum.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +183,7 @@
 				};
 			};
 			buildConfigurationList = F196EC0B2CCC590100526263 /* Build configuration list for PBXProject "The Museum" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +191,6 @@
 				Base,
 			);
 			mainGroup = F196EC072CCC590100526263;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = F196EC112CCC590100526263 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +205,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F196EC542CCCA26E00526263 /* Assets.xcassets in Resources */,
+				F196EC562CCCA26E00526263 /* LaunchScreen.storyboard in Resources */,
+				F18EE4602CCEF8070082D543 /* ObjectTableViewCell.xib in Resources */,
+				F196EC572CCCA26E00526263 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05CF223EF037AEF0F5C44322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Museum/Pods-The Museum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Museum/Pods-The Museum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Museum/Pods-The Museum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D04CF72979D6B619C78C0E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Museum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F196EC0C2CCC590100526263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F177D6AF2CCF63C400108874 /* DetailObjectViewController.swift in Sources */,
+				F19866C82CD0964C00215F1A /* DownloadImage.swift in Sources */,
+				F18C11762CCDBEB6000D7872 /* ListDataViewController.swift in Sources */,
+				F196EC582CCCA26E00526263 /* AppDelegate.swift in Sources */,
+				F196EC592CCCA26E00526263 /* SceneDelegate.swift in Sources */,
+				F196EC5E2CCCDB9400526263 /* Departement.swift in Sources */,
+				F18C117A2CCE87D9000D7872 /* ObjectData.swift in Sources */,
+				F18EE45F2CCEF8070082D543 /* ObjectTableViewCell.swift in Sources */,
+				F196EC5C2CCCC93C00526263 /* DepartementViewController.swift in Sources */,
+				F183B6032CCF76FE0066BE76 /* ObjectDataDetail.swift in Sources */,
+				F18C11782CCDF67A000D7872 /* ListObject.swift in Sources */,
+				F196EC5A2CCCA26E00526263 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F196EC4E2CCCA26E00526263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F196EC4D2CCCA26E00526263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F196EC502CCCA26E00526263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F196EC4F2CCCA26E00526263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		F196EC242CCC590300526263 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A69CFECFF0D8E92A14406D /* Pods-The Museum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -151,8 +312,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -168,6 +329,7 @@
 		};
 		F196EC252CCC590300526263 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F83C02599B054B58B007DF /* Pods-The Museum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -179,8 +341,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -231,7 +393,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -294,7 +456,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
